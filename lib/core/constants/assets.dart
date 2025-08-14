@@ -1,0 +1,37 @@
+class AppAssets {
+  static const String logo = 'assets/images/logo.svg';
+  static const String carrot = 'assets/images/carrot.svg';
+  static const String location = 'assets/images/location.svg';
+  static const String apple = 'assets/images/apple.svg';
+  static const String bana = 'assets/images/bana.svg';
+  static const String pepp = 'assets/images/pepper.svg';
+  static const String ging = 'assets/images/ginger.svg';
+  static const String store = 'assets/images/store.svg';
+  static const String search = 'assets/images/search.svg';
+  static const String cart = 'assets/images/cart.svg';
+  static const String favorite = 'assets/images/favourite.svg';
+  static const String account = 'assets/images/account.svg';
+  static const String fruits = 'assets/images/fruits.svg';
+  static const String oil = 'assets/images/oil.svg';
+  static const String meat = 'assets/images/meat.svg';
+  static const String bread = 'assets/images/bread.svg';
+  static const String egg = 'assets/images/eggs.svg';
+  static const String beverges = 'assets/images/beverges.svg';
+  static const String sprite = 'assets/images/sprite.svg';
+  static const String dietcoke = 'assets/images/dietcoke.svg';
+  static const String cola = 'assets/images/cola.svg';
+  static const String pepsican = 'assets/images/pepsican.svg';
+  static const String applejuice = 'assets/images/applejuice.svg';
+  static const String pepsilogo = 'assets/images/pepsilogo.svg';
+  static const String accountperson = 'assets/images/acco.svg';
+  static const String Gio = 'assets/images/Giovanni.svg';
+  static const String pen = 'assets/images/pen.svg';
+  static const String order = 'assets/images/order.svg';
+  static const String mydetails = 'assets/images/mydetails.svg';
+  static const String locationacc = 'assets/images/locationacc.svg';
+  static const String payment= 'assets/images/payment.svg';
+  static const String promocode = 'assets/images/promocode.svg';
+  static const String notifications = 'assets/images/notification.svg';
+  static const String help = 'assets/images/help.svg';
+  static const String about = 'assets/images/about.svg';
+}
