@@ -18,7 +18,7 @@ class Account extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(25, 35, 0, 0),
+            padding: const EdgeInsets.fromLTRB(25, 25, 0, 0),
             child: Row(
               children: [
                 SvgPicture.asset(
