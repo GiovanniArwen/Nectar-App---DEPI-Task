@@ -22,8 +22,8 @@ It is designed as a **UI-only** project, allowing users to browse products and n
 
 ## Screenshots
 
-![Home Page](assets/screenshots/1)
-![Login Page](assets/screenshots/2)
-![Cart Page](assets/screenshots/3)
-![Favourite Page](assets/screenshots/4)
-![account Page](assets/screenshots/5)
+![Home Page](assets/screenshots/1.png)
+![Login Page](assets/screenshots/2.png)
+![Cart Page](assets/screenshots/3.png)
+![Favourite Page](assets/screenshots/4.png)
+![account Page](assets/screenshots/5.png)
