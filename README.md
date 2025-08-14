@@ -1,7 +1,5 @@
 # market
 
-A new Flutter project.
-
 # Nectar App 🍏
 
 **Nectar App** is a mobile store application for selling vegetables, fruits, and beverages.  
@@ -18,9 +16,24 @@ It is designed as a **UI-only** project, allowing users to browse products and n
   - ❤️ Favorites
   - 🛒 Cart
   - 👤 Account
-- Multiple **Grid** la
+- Multiple **Grid** layouts for browsing products.
+- Switch between different categories such as vegetables, fruits, and beverages.
 
-## Screenshots
+---
+
+## 🛠 Technologies Used
+- **Flutter** for UI development.
+- Clean and simple design with eye-friendly colors.
+
+---
+
+## 📱 Notes
+- This project is **UI only** and does not include database or API integration.
+- Can be extended to add purchasing and online payment features in the future.
+
+---
+
+## 📷 Screenshots
 
 ![Home Page](assets/screenshots/1.png)
 ![Login Page](assets/screenshots/2.png)
