@@ -27,7 +27,7 @@ class CustomTextformfield extends StatelessWidget {
         suffixIcon: suffixIcon,
         label: Text(
           labelText,
-          style: TextStyle(fontSize: 16),
+          style: TextStyle(fontSize: 17),
         ),
       ),
     );

@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:market/core/constants/assets.dart';
 import 'package:market/core/extenstions/navigation.dart';
 import 'package:market/core/utils/colors.dart';
-import 'package:market/features/auth/pages/location_screen.dart';
+import 'package:market/features/auth/pages/welcom_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Future.delayed(Duration(seconds: 3), () {
-      pushWithReplacement(context, const LocationScreen());
+      pushWithReplacement(context, const WelcomScreen());
     });
     super.initState();
   }

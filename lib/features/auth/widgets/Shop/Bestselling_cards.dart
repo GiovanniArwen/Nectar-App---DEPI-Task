@@ -16,7 +16,7 @@ class FindProducts extends StatelessWidget {
         scrollDirection: Axis.vertical,
         itemBuilder: (context, index) {
           var Product = productsBestSelling[index];
-          return RecentCard2(
+          return RecentCard1(
             model: Product,
           );
         },
@@ -31,8 +31,8 @@ class FindProducts extends StatelessWidget {
   }
 }
 
-class RecentCard2 extends StatelessWidget {
-  const RecentCard2({
+class RecentCard1 extends StatelessWidget {
+  const RecentCard1({
     super.key,
     required this.model,
   });

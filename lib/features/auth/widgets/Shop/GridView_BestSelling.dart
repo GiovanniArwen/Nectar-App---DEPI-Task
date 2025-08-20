@@ -18,9 +18,9 @@ class GridFind extends StatelessWidget {
           crossAxisSpacing: 10,
           mainAxisExtent: 250),
       itemBuilder: (context, index) {
-        var Product = productsBestSelling[index];
-        return RecentCard2(
-          model: Product,
+        var products = productsBestSelling[index];
+        return RecentCard1(
+          model: products,
         );
       },
       itemCount: productsBestSelling.length,

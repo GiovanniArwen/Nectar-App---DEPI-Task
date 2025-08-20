@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:market/core/constants/assets.dart';
 import 'package:market/core/utils/colors.dart';
-import 'package:market/features/screens/HomeScreen.dart';
+import 'package:market/features/auth/pages/HomeScreen.dart';
 import 'package:market/features/screens/Explore_screen.dart';
 import 'package:market/features/screens/account.dart';
 import 'package:market/features/screens/cart.dart';

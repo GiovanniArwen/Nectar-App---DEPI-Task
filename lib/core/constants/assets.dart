@@ -34,4 +34,5 @@ class AppAssets {
   static const String notifications = 'assets/images/notification.svg';
   static const String help = 'assets/images/help.svg';
   static const String about = 'assets/images/about.svg';
+  static const String welcome = 'assets/images/welcome.png';
 }

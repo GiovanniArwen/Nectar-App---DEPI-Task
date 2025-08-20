@@ -11,4 +11,8 @@ pushWithReplacement(BuildContext context, Widget newPage) {
   );
 }
 
+pushandremoveuntil(BuildContext context, Widget newPage) {
+  Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => newPage),
+  (Route<dynamic> route) => false,);
 
+}

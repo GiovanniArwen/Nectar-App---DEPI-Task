@@ -17,67 +17,59 @@ class _LocationScreenState extends State<LocationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: MColors.whiteColor,
       appBar: AppBar(
-        leading: Icon(Icons.arrow_back_ios),
+        backgroundColor: MColors.whiteColor,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.arrow_back_ios)),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(30.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            SvgPicture.asset(AppAssets.location),
-            SizedBox(
-              height: 40,
-            ),
-            Text(
-              'Select Your Location',
-              style: TextStyle(fontSize: 26, fontWeight: FontWeight.w600),
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Text(
-              textAlign: TextAlign.center,
-              'Switch on your location to stay in tune with \nwhat’s happening in your area',
-              style: TextStyle(fontSize: 16, color: MColors.greyColor),
-            ),
-            SizedBox(
-              height: 160,
-            ),
-            Container(
-              padding: EdgeInsets.only(bottom: 1,top: 5),
-              width: 364,
-              height: 74,
-              decoration: BoxDecoration(
-                  border: Border(
-                      bottom: BorderSide(
-                color: MColors.greyColor,
-                width: 1,
-              ))),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Address',
-                    style: TextStyle(
-                        fontSize: 16,
-                        color: MColors.greyColor,
-                        fontWeight: FontWeight.w600),
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Text(
-                    'Cairo, Egypt',
-                    style: TextStyle(fontSize: 16, color: Colors.black),
-                  ),
-                ],
+        padding: const EdgeInsets.all(20.0),
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              SvgPicture.asset(AppAssets.location),
+              SizedBox(
+                height: 37,
               ),
-            ),
-            SizedBox(height: 78,),
-            MainButton(
-                text: 'Submit', onPressed: (){pushTo(context, LoginScreen());})
-          ],
+              Text(
+                'Select Your Location',
+                style: TextStyle(fontSize: 26, fontWeight: FontWeight.w600),
+              ),
+              SizedBox(
+                height: 13,
+              ),
+              Text(
+                textAlign: TextAlign.center,
+                'Switch on your location to stay in tune with \nwhat’s happening in your area',
+                style: TextStyle(fontSize: 16, color: MColors.greyColor),
+              ),
+              SizedBox(
+                height: 165,
+              ),
+              
+              TextFormField(
+                decoration: InputDecoration(
+                  label: Text(
+                    'Address',
+                  ),
+                  //hintText: 'Enter your mobile number',
+                ),
+              ),
+              SizedBox(
+                height: 72,
+              ),
+              MainButton(
+                  text: 'Submit',
+                  onPressed: () {
+                    pushTo(context, LoginScreen());
+                  })
+            ],
+          ),
         ),
       ),
     );
