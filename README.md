@@ -1,6 +1,3 @@
-# market
-
-A new Flutter project.
 
 # Nectar App 🍏
 
@@ -20,10 +17,10 @@ It is designed as a **UI-only** project, allowing users to browse products and n
   - 👤 Account
 - Multiple **Grid** la
 
-## Screenshots
 
-![Home Page](assets/screenshots/1)
-![Login Page](assets/screenshots/2)
-![Cart Page](assets/screenshots/3)
-![Favourite Page](assets/screenshots/4)
-![account Page](assets/screenshots/5)
+
+## new Screens
+
+![Details Screen]('assets/screenshots/7.png')
+![Payment bottom sheet ]('assets/screenshots/8.png')
+![Submit Screen]('assets/screenshots/9.png')
